@@ -1,11 +1,12 @@
 <?php
 
-namespace Combustion\Geo\Location;
+namespace InvisibleMan\Geo\Location;
 
 /**
  * Class Geopoint
- * @package Combustion\Geo\Location
- * @author  Carlos Granados <cgranados@combustiongroup.com>
+ *
+ * @package InvisibleMan\Geo\Location
+ * @author Carlos Granados <granados.carlos91@gmail.com>
  */
 class Geopoint {
 

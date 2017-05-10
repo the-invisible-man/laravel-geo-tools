@@ -1,21 +1,24 @@
 <?php
 
-namespace Combustion\Geo\Support;
+namespace InvisibleMan\Geo\Support;
 
-use Combustion\Geo\Services\Google\API\Places;
-use Combustion\Geo\Services\Google\API\PlaceSearch;
 use GuzzleHttp\Client;
-use Combustion\Geo\GeoGateway;
 use Illuminate\Cache\Repository;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\DatabaseManager;
-use Combustion\Geo\Services\GeocodeManager;
-use Combustion\Geo\Services\Google\API\Geocode;
-use Combustion\Geo\Services\Google\API\Timezone;
-use Combustion\Geo\Contracts\GeoServiceInterface;
-use Combustion\Geo\Services\Google\API\Directions;
+use InvisibleMan\Geo\Services\GeocodeManager;
+use InvisibleMan\Geo\Services\Google\API\Geocode;
+use InvisibleMan\Geo\Services\Google\API\Timezone;
+use InvisibleMan\Geo\Contracts\GeoServiceInterface;
+use InvisibleMan\Geo\Services\Google\API\Directions;
 
+/**
+ * Class GeoServiceProvider
+ *
+ * @package InvisibleMan\Geo\Support
+ * @author  Carlos Granados <granados.carlos91@gmail.com>
+ */
 class GeoServiceProvider extends ServiceProvider
 {
     public function register()

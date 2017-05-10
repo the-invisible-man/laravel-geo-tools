@@ -1,6 +1,6 @@
 <?php
 
-namespace Combustion\Geo\Contracts;
+namespace InvisibleMan\Geo\Contracts;
 
 use Combustion\Geo\Location\Geopoint;
 use Combustion\Geo\Responses\GeocodeResponse;
@@ -9,8 +9,9 @@ use Combustion\Geo\Services\Google\API\Directions;
 
 /**
  * Interface GeoServiceInterface
- * @package Combustion\Geo\Contracts
- * @author Carlos Granados <cgranados@combustiongroup.com>
+ *
+ * @package InvisibleMan\Geo\Contracts
+ * @author Carlos Granados <granados.carlos91@gmail.com>
  */
 interface GeoServiceInterface {
 

@@ -1,9 +1,15 @@
 <?php
 
-namespace Combustion\Geo\Services\Google\API;
+namespace InvisibleMan\Geo\Services\Google\API;
 
-use Combustion\Geo\Services\Google\GoogleMapsAPI;
+use InvisibleMan\Geo\Services\Google\GoogleMapsAPI;
 
+/**
+ * Class Geocode
+ *
+ * @package InvisibleMan\Geo\Services\Google\API
+ * @author Carlos Granados <granados.carlos91@gmail.com>
+ */
 class Geocode extends GoogleMapsAPI
 {
     /**

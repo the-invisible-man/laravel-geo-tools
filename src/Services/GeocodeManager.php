@@ -1,14 +1,14 @@
 <?php
 
-namespace Combustion\Geo\Services;
+namespace InvisibleMan\Geo\Services;
 
-use Combustion\StandardLib\Contracts\ServiceFactory;
-use Combustion\StandardLib\Contracts\ServiceManager;
+use InvisibleMan\Geo\Support\ServiceManager;
+use InvisibleMan\Geo\Contracts\ServiceFactory;
 
 /**
  * Class GeocodeManager
- * @package     Combustion\Geo\API
- * @author      Carlos Granados <cgranados@combustiongroup.com>
+ * @package     InvisibleMan\Geo\API
+ * @author      Carlos Granados <granados.carlos91@gmail.com>
  */
 class GeocodeManager extends ServiceManager implements ServiceFactory
 {

@@ -1,5 +1,5 @@
 <?php
 
-namespace Combustion\Geo\Services\Google\Exceptions;
+namespace InvisibleMan\Geo\Services\Google\Exceptions;
 
 class GoogleMapsRequestNotOkayException extends \Exception {}

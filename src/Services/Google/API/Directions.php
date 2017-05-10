@@ -1,13 +1,13 @@
 <?php
 
-namespace Combustion\Geo\Services\Google\API;
+namespace InvisibleMan\Geo\Services\Google\API;
 
-use Combustion\Geo\Services\Google\GoogleMapsAPI;
+use InvisibleMan\Geo\Services\Google\GoogleMapsAPI;
 
 /**
  * Class Directions
- * @package     Combustion\Geo\Services\Google\Services
- * @author      Carlos Granados <cgranados@combustiongroup.com>
+ * @package     InvisibleMan\Geo\Services\Google\Services
+ * @author      Carlos Granados <granados.carlos91@gmail.com>
  * */
 class Directions extends GoogleMapsAPI {
 

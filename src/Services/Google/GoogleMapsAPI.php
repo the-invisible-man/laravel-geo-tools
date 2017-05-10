@@ -1,13 +1,10 @@
 <?php
 
-namespace Combustion\Geo\Services\Google;
+namespace InvisibleMan\Geo\Services\Google;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Exception\ClientException;
-use Combustion\StandardLib\Traits\ValidatesConfig;
-use Combustion\StandardLib\Exceptions\ConfigNotFoundException;
-use Combustion\Geo\Services\Google\Exceptions\GoogleMapsRequestNotOkatException;
 
 /**
  * Class GoogleMapsRequest
@@ -21,8 +18,6 @@ use Combustion\Geo\Services\Google\Exceptions\GoogleMapsRequestNotOkatException;
  *
  * */
 abstract class GoogleMapsAPI {
-
-    use ValidatesConfig;
 
     const   POST    = 'POST',
             GET     = 'GET',
@@ -72,7 +67,7 @@ abstract class GoogleMapsAPI {
     {
         array_merge($this->requiredConfig, $this->baseRequired);
 
-        $this->config       = $this->validateConfig($config);
+        $this->config       = $config
         $this->httpClient   = $httpClient;
     }
 
@@ -134,7 +129,6 @@ abstract class GoogleMapsAPI {
 
     /**
      * @param string $status
-     * @throws GoogleMapsRequestNotOkatException
      */
     public function handleResponseStatus(string $status) {
         switch($status) {
@@ -196,12 +190,12 @@ abstract class GoogleMapsAPI {
     /**
      * @param string $key
      * @return mixed
-     * @throws ConfigNotFoundException
+     * @throws \Exception
      */
     protected function getConfig(string $key)
     {
         if (!array_key_exists($key, $this->config)) {
-            throw new ConfigNotFoundException("Tried to access invalid configuration \"{$key}\"");
+            throw new \Exception("Tried to access invalid configuration \"{$key}\"");
         }
 
         return $this->config[$key];

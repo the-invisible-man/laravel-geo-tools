@@ -1,7 +1,13 @@
 <?php
 
-namespace Combustion\Geo\Responses;
+namespace InvisibleMan\Geo\Responses;
 
+/**
+ * Class TimeZoneResponse
+ *
+ * @package InvisibleMan\Geo\Responses
+ * @author Carlos Granados <granados.carlos91@gmail.com>
+ */
 class TimeZoneResponse {
 
     /**

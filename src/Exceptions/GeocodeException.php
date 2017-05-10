@@ -1,5 +1,5 @@
 <?php
 
-namespace Combustion\Geo\Exceptions;
+namespace InvisibleMan\Geo\Exceptions;
 
 class GeocodeException extends \Exception {}

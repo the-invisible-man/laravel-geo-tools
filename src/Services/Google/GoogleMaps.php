@@ -1,15 +1,15 @@
 <?php
 
-namespace Combustion\Geo\Services\Google;
+namespace InvisibleMan\Geo\Services\Google;
 
-use Combustion\Geo\Location\Geopoint;
-use Combustion\Geo\Responses\GeocodeResponse;
-use Combustion\Geo\Responses\TimeZoneResponse;
-use Combustion\Geo\Services\Google\API\Geocode;
-use Combustion\Geo\Exceptions\GeocodeException;
-use Combustion\Geo\Services\Google\API\Timezone;
-use Combustion\Geo\Contracts\GeoServiceInterface;
-use Combustion\Geo\Services\Google\API\Directions;
+use InvisibleMan\Geo\Location\Geopoint;
+use InvisibleMan\Geo\Responses\GeocodeResponse;
+use InvisibleMan\Geo\Responses\TimeZoneResponse;
+use InvisibleMan\Geo\Services\Google\API\Geocode;
+use InvisibleMan\Geo\Exceptions\GeocodeException;
+use InvisibleMan\Geo\Services\Google\API\Timezone;
+use InvisibleMan\Geo\Contracts\GeoServiceInterface;
+use InvisibleMan\Geo\Services\Google\API\Directions;
 
 /**
  * Class GoogleMaps
@@ -17,8 +17,8 @@ use Combustion\Geo\Services\Google\API\Directions;
  * This class merges the functionality of each Google Maps
  * API in a single object that implements the GeoServiceInterface contract
  *
- * @package     Combustion\Geo\GeoServices
- * @author      Carlos Granados <cgranados@combustiongroup.com>
+ * @package     InvisibleMan\Geo\GeoServices
+ * @author      Carlos Granados <granados.carlos91@gmail.com>
  */
 class GoogleMaps implements GeoServiceInterface
 {

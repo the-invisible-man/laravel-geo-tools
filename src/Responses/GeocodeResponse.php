@@ -1,14 +1,15 @@
 <?php
 
-namespace Combustion\Geo\Responses;
+namespace InvisibleMan\Geo\Responses;
 
 use Combustion\Geo\Location\Geopoint;
 use Illuminate\Contracts\Support\Arrayable;
 
 /**
  * Class GeoCodeResponse
- * @package Combustion\Geo\Contracts
- * @author Carlos Granados <cgranados@combustiongroup.com>
+ *
+ * @package InvisibleMan\Geo\Contracts
+ * @author Carlos Granados <granados.carlos91@gmail.com>
  */
 class GeocodeResponse implements Arrayable
 {
