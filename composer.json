@@ -1,0 +1,26 @@
+{
+  "name": "the-invisible-man/laravel-geo-tools",
+  "homepage": "https://github.com/the-invisible-man/laravel-geo-tools",
+  "description": "Provides a GeoService for common location based services.",
+  "keywords": ["common", "tools", "services", "google", "geocode"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Carlos Granados",
+      "email": "granados.carlos91@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^5.3.3|^7.0",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "InvisibleMan\\Geo\\": "src/"
+    }
+  }
+}
