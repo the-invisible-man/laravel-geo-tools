@@ -1,6 +1,6 @@
 <?php
 
-namespace InvisibleMan\Geo\Support;
+namespace InvisibleMan\Geo;
 
 use GuzzleHttp\Client;
 use Illuminate\Cache\Repository;
